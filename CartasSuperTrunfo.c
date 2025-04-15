@@ -39,7 +39,7 @@ int main() {
     scanf(" %[^\n]s", nomeCidade1);  // Lê uma string com espaços
 
     printf("População: ");
-    scanf("%d", &populacao1);  // Lê um inteiro
+    scanf("%lu", &populacao1);  // Lê um inteiro
 
     printf("Área (em km²): ");
     scanf("%f", &area1);       // Lê um float
@@ -71,7 +71,7 @@ int main() {
     scanf(" %[^\n]s", nomeCidade2);
 
     printf("População: ");
-    scanf("%d", &populacao2);
+    scanf("%lu", &populacao2);
 
     printf("Área (em km²): ");
     scanf("%f", &area2);
